@@ -1,0 +1,55 @@
+#bloc_page
+{
+    display: flex;
+}
+
+#bloc1
+{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    background-color: FFD54F;
+    text-align: justify;
+    padding: 50px;
+}
+
+#photocv
+{
+    overflow:hidden;
+    border-radius:50px;
+    width:180px;
+    height:180px;
+}
+
+#bloc2
+{
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+}
+
+.sous_titre
+{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+article
+{
+    display: flex;
+}
+
+.experiences
+{
+    display: flex;
+}
+.duree
+{
+    flex: 1 1;
+}
+
+.description
+{
+    flex: 1 1;
+}
