@@ -7,29 +7,37 @@
 {
     display: flex;
     flex-direction: column;
-    width: 700px;
+    width: 55%;
     background-color: rgb(129, 216, 243);
     text-align: justify;
-    padding-top: 60px;
-    
+    padding-top: 40px;
 }
 
 #photocv
 {
-    border-radius: 50%;
+    width : 200px; height : 200px;
     border: 5px solid grey;
+    -moz-border-radius : 200px;
+    -webkit-border-radius : 200px;
+    border-radius : 200px;
     display: block;
     margin: auto;
 }
     
 h1
 {
-    font-size: 2.5em;
+    font-size: 2.8em;
+    font-weight: lighter;
+}
+
+strong
+{
+    color: FFD54F;
 }
 
 span
-{
-    color: FFD54F;
+{   
+    border-bottom: 3px solid rgb(255,213,79);
 }
 
 #bloc1 h2
@@ -39,6 +47,7 @@ span
     text-align: center;
     font-size: 1.8em;
     font-weight: normal;
+    margin-top: 40px;
 }
 
 .icone_loisir
@@ -57,7 +66,6 @@ span
     display: flex;
     flex-direction: column;
     padding: 70px;
-
 }
 
 #bloc2 h2
