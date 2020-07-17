@@ -62,9 +62,9 @@ span
 
 #bloc2 h2
 {
-    padding: 50px;
     font-size: 1.8em;
     font-weight: normal;
+    margin-left: 40px;
 }
 
 .fa-user-graduate , .fa-suitcase, .fa-edit
@@ -87,6 +87,7 @@ span
 header p
 {
     font-size: 1.8em;
+    margin-bottom: 70px;
 }
 
 .sous_titre
@@ -94,13 +95,13 @@ header p
     display: flex;
     flex-direction: row;
     align-items: baseline;
+    border-bottom: solid rgb(129, 216, 243);
+    margin: 40px 0px;
 }
 
-.duree
+li
 {
-    display: flex;
-    flex-direction: row;
-    align-items: baseline;
+    list-style-image: url(li_icon.svg);
 }
 
 article
