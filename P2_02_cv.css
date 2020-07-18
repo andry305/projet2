@@ -50,10 +50,9 @@ span
     margin-top: 40px;
 }
 
-.icone_loisir
+#bloc1 article
 {
-    display: block;
-    margin: auto;
+    margin-bottom: 90px;
 }
 
 #bloc1 article, aside
@@ -118,6 +117,30 @@ article
 }
 
 .duree , .description
+{
+    flex: 1 1;
+}
+
+.icone_loisir
+{
+   display: flex;
+   justify-content: space-around;
+   
+}
+
+.icone
+{
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+footer
+{
+    display: flex;
+}
+
+#recommandation
 {
     flex: 1 1;
 }
