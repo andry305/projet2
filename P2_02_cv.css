@@ -3,6 +3,43 @@
     display: flex;
 }
 
+h1
+{
+    font-size: 2.8em;
+    font-weight: lighter;
+}
+
+article
+{
+    display: flex;
+}
+
+strong
+{
+    color: FFD54F;
+}
+
+span
+{   
+    border-bottom: 3px solid rgb(255,213,79);
+}
+
+.icone_loisir
+{
+   display: flex;
+   justify-content: space-around;  
+}
+
+.fa-plane-departure, .fa-futbol, .fa-film
+{
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 11px;
+    margin: 3px;
+}
+
+/* partie bloc gauche */
+
 #bloc1
 {
     display: flex;
@@ -24,22 +61,6 @@
     margin: auto;
 }
     
-h1
-{
-    font-size: 2.8em;
-    font-weight: lighter;
-}
-
-strong
-{
-    color: FFD54F;
-}
-
-span
-{   
-    border-bottom: 3px solid rgb(255,213,79);
-}
-
 #bloc1 h2
 {
     background-color: black;
@@ -60,11 +81,19 @@ span
     padding: 40px;
 }
 
+/* partie bloc droite */
+
 #bloc2
 {
     display: flex;
     flex-direction: column;
     padding: 70px;
+}
+
+header p
+{
+    font-size: 1.8em;
+    margin-bottom: 70px;
 }
 
 #bloc2 h2
@@ -79,22 +108,10 @@ span
     color: rgb(64, 190, 228);
 }
 
-.fa-hourglass-half
-{
-    color: FFD54F;
-    padding-right: 50px;
-}
-
 #bloc2 h1
 {
     margin: 50px 50px 0px 0px;
     padding-bottom: 0;
-}
-
-header p
-{
-    font-size: 1.8em;
-    margin-bottom: 70px;
 }
 
 .sous_titre
@@ -106,33 +123,18 @@ header p
     margin: 40px 0px;
 }
 
-li
-{
-    list-style-image: url(li_icon.svg);
-}
 
-article
-{
-    display: flex;
-}
 
 .duree , .description
 {
     flex: 1 1;
+    display: flex;
+    align-items: baseline;
 }
 
-.icone_loisir
+.fa-dot-circle, .fa-circle
 {
-   display: flex;
-   justify-content: space-around;
-   
-}
-
-.icone
-{
-    border: 1px solid black;
-    border-radius: 50%;
-    padding: 15px;
+    margin-right: 18px;
 }
 
 footer
