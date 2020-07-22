@@ -1,0 +1,61 @@
+@media (max-width:600px)
+{
+    #bloc_page
+    {
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    #bloc1
+    {
+        margin: auto;
+        width: auto;
+        border-radius: 10px;
+    }
+    #bloc1 h2, #bloc2 h2
+    {
+        font-size: 1.5em;
+        text-shadow: 2px 1px 2px black;
+        color: FFD54F;
+    }
+    h2 span
+    {
+        font-size: 0.9em;
+    }
+    #bloc1 article, aside
+    {
+        padding: 25px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    #bloc2
+    {
+        padding: 25px;
+        margin: auto;
+        width: auto;
+        background-color: EEEEEE;
+        border-radius: 10px;
+    }
+    h1
+    {
+        font-size: 1.8em;
+    }
+    header p
+    {
+        font-size: 1.5em;
+    }
+    .sous_titre
+    {
+        justify-content: center; 
+    }
+    #bloc2 article
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .duree
+    {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

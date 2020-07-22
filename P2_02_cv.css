@@ -2,40 +2,23 @@
 {
     display: flex;
 }
-
 h1
 {
     font-size: 2.8em;
     font-weight: lighter;
 }
-
+h4
+{
+    margin: 0px;
+}
 article
 {
     display: flex;
+    text-align: justify;
 }
-
 strong
 {
     color: FFD54F;
-}
-
-span
-{   
-    border-bottom: 3px solid rgb(255,213,79);
-}
-
-.icone_loisir
-{
-   display: flex;
-   justify-content: space-around;  
-}
-
-.fa-plane-departure, .fa-futbol, .fa-film
-{
-    border: 1px solid black;
-    border-radius: 50%;
-    padding: 11px;
-    margin: 3px;
 }
 
 /* partie bloc gauche */
@@ -44,12 +27,12 @@ span
 {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     width: 55%;
     background-color: rgb(129, 216, 243);
     text-align: justify;
     padding-top: 40px;
 }
-
 #photocv
 {
     width : 200px; height : 200px;
@@ -60,7 +43,6 @@ span
     display: block;
     margin: auto;
 }
-    
 #bloc1 h2
 {
     background-color: black;
@@ -70,15 +52,21 @@ span
     font-weight: normal;
     margin-top: 40px;
 }
-
-#bloc1 article
-{
-    margin-bottom: 90px;
-}
-
 #bloc1 article, aside
 {
     padding: 40px;
+}
+.icone_loisir
+{
+   display: flex;
+   justify-content: space-around;  
+}
+.fa-plane-departure, .fa-futbol, .fa-film
+{
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 11px;
+    margin: 3px;
 }
 
 /* partie bloc droite */
@@ -88,32 +76,36 @@ span
     display: flex;
     flex-direction: column;
     padding: 70px;
+    background-color: EEEEEE;
 }
-
-header p
-{
-    font-size: 1.8em;
-    margin-bottom: 70px;
-}
-
-#bloc2 h2
-{
-    font-size: 1.8em;
-    font-weight: normal;
-    margin-left: 40px;
-}
-
-.fa-user-graduate , .fa-suitcase, .fa-edit
-{
-    color: rgb(64, 190, 228);
-}
-
 #bloc2 h1
 {
     margin: 50px 50px 0px 0px;
     padding-bottom: 0;
 }
-
+header span
+{   
+    border-bottom: 3px solid rgb(255,213,79);
+}
+header p
+{
+    font-size: 1.8em;
+    margin-bottom: 70px;
+}
+#bloc2 h2
+{
+    font-size: 1.8em;
+    font-weight: normal;
+    margin-left: 30px;
+}
+.fa-dot-circle, .fa-circle
+{
+    margin-right: 18px;
+}
+.fa-user-graduate , .fa-suitcase, .fa-edit
+{
+    color: rgb(64, 190, 228);
+}
 .sous_titre
 {
     display: flex;
@@ -122,26 +114,21 @@ header p
     border-bottom: solid rgb(129, 216, 243);
     margin: 40px 0px;
 }
-
-
-
 .duree , .description
 {
     flex: 1 1;
     display: flex;
     align-items: baseline;
 }
-
-.fa-dot-circle, .fa-circle
+.description
 {
-    margin-right: 18px;
+    flex-direction: column;
+    
 }
-
 footer
 {
     display: flex;
 }
-
 #recommandation
 {
     flex: 1 1;

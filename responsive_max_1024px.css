@@ -1,0 +1,43 @@
+@media (min-width:600px) and (max-width:1024px)
+{
+    /* partie bloc gauche */
+
+    #bloc1
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    #bloc1 article, aside
+    {
+        padding: 20px;
+    }
+    
+    /* partie bloc droite */
+    
+    #bloc2
+    {
+        padding: 20px;
+    }
+    #bloc2 article
+    {
+        flex-direction: column;
+    
+    }
+    header p
+    {
+        text-align: center;
+    }
+    h2 span
+    {
+        font-size: 0.8em;
+    }
+    .sous_titre
+    {
+        justify-content: center; 
+    }
+    .duree
+    {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
