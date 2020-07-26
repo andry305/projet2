@@ -1,3 +1,7 @@
+body
+{
+    margin: 0px;
+}
 #bloc_page
 {
     display: flex;
@@ -27,21 +31,17 @@ strong
 {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    width: 55%;
+    width: 29%;
     background-color: rgb(129, 216, 243);
     text-align: justify;
-    padding-top: 40px;
 }
 #photocv
 {
-    width : 200px; height : 200px;
+    width : 170px; height : 170px;
     border: 5px solid grey;
-    -moz-border-radius : 200px;
-    -webkit-border-radius : 200px;
-    border-radius : 200px;
+    border-radius : 50%;
     display: block;
-    margin: auto;
+    margin: 50px auto;
 }
 #bloc1 h2
 {
@@ -50,22 +50,25 @@ strong
     text-align: center;
     font-size: 1.8em;
     font-weight: normal;
-    margin-top: 40px;
+    margin: 0px;
+    
 }
 #bloc1 article, aside
 {
-    padding: 40px;
+    padding: 47px;
+    font-style: "Times News Roman Normal";
+    font-size: 1.3em;
 }
 .icone_loisir
 {
    display: flex;
    justify-content: space-around;  
 }
-.fa-plane-departure, .fa-futbol, .fa-film
+.fa-globe-asia, .fa-futbol, .fa-music
 {
     border: 1px solid black;
     border-radius: 50%;
-    padding: 11px;
+    padding: 15px;
     margin: 3px;
 }
 
@@ -116,13 +119,19 @@ header p
 }
 .duree , .description
 {
-    flex: 1 1;
     display: flex;
     align-items: baseline;
+    font-style: "Times News Roman Normal";
+    font-size: 1.3em;
+}
+.duree
+{
+    flex-basis: 33.33%;
 }
 .description
 {
     flex-direction: column;
+    flex-basis: 66.66%;
     
 }
 footer

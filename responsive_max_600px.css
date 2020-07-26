@@ -2,14 +2,14 @@
 {
     #bloc_page
     {
-        margin: auto;
+        margin: 0px;
         display: flex;
         flex-direction: column;
     }
     #bloc1
     {
-        margin: auto;
-        width: auto;
+        margin: 0px;
+        width: 100%;
         border-radius: 10px;
     }
     #bloc1 h2, #bloc2 h2
