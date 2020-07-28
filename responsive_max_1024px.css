@@ -1,13 +1,16 @@
 @media all and (min-width:600px) and (max-width:1024px)
 {
-    /* partie gauche */
-
     #bloc_page
     {
         margin: 0px auto;
         display: flex;
         flex-direction: column;
+        width: 100%;
     }
+    
+    /* partie gauche */
+
+    
     #bloc1
     {
         width: auto;
