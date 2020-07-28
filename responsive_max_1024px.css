@@ -1,16 +1,22 @@
-@media (min-width:600px) and (max-width:1024px)
+@media all and (min-width:600px) and (max-width:1024px)
 {
     /* partie gauche */
 
-    #bloc1
+    #bloc_page
     {
+        margin: 0px auto;
         display: flex;
         flex-direction: column;
+    }
+    #bloc1
+    {
         width: auto;
     }
     #bloc1 article, aside
     {
         padding: 20px;
+        margin-right: auto;
+        margin-left: auto;
     }
     
     /* partie droite */
@@ -18,11 +24,7 @@
     #bloc2
     {
         padding: 20px;
-    }
-    #bloc2 article
-    {
-        flex-direction: column;
-    
+        width: auto;
     }
     header p
     {
