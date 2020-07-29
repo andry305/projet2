@@ -1,37 +1,61 @@
 @media all and (min-width:600px) and (max-width:1024px)
 {
-    #bloc_page
+    body
     {
-        margin: 0px auto;
-        display: flex;
+        width: 100%;
+        margin: 0px;
+    }    
+    header
+    {
         flex-direction: column;
         width: 100%;
     }
-    
-    /* partie gauche */
-
-    
-    #bloc1
+    #titre_cv h1
     {
-        width: auto;
-    }
-    #bloc1 article, aside
-    {
-        padding: 20px;
-        margin-right: auto;
         margin-left: auto;
-    }
-    
-    /* partie droite */
-    
-    #bloc2
-    {
-        padding: 20px;
-        width: auto;
+        margin-right: auto;
+        text-align: center;
+        font-size: 3.3em;
     }
     header p
     {
         text-align: center;
+        font-size: 3em;
+    }
+    #bloc_photo
+    {
+        width: 100%;
+    }
+    #principal
+    {
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+        width: 100%;
+        border-radius: 10px;
+    }
+    #bloc1
+    {
+        width: auto;
+    }
+    #bloc1 h2
+    {
+        font-size: 2.2em;
+    }
+    #bloc1 article, aside
+    {
+        padding: 70px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    #bloc2
+    {
+        padding: 70px;
+        width: auto;
+    }
+    #bloc2 h2
+    {
+        font-size: 2.2em;
     }
     h2 span
     {
@@ -45,5 +69,14 @@
     {
         margin-left: auto;
         margin-right: auto;
+    }
+    .description h3, .description h4
+    {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .contact_info
+    {
+        font-size: 1.3em;
     }
 }

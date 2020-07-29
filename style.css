@@ -2,27 +2,52 @@ body
 {
     margin: 0px;
 }
-#bloc_page
+#principal
 {
     display: flex;
+}
+
+/* partie haut de page photo+nom+metier */
+
+header
+{
+    display: flex;
+}
+#bloc_photo
+{
+    width: 29%;
+    background-color: rgb(129, 216, 243);
+}
+#photocv
+{
+    width : 170px; height : 170px;
+    border: 5px solid grey;
+    border-radius : 50%;
+    display: block;
+    margin: 50px auto;
+}
+#titre_cv
+{
+    margin: 40px 70px;
 }
 h1
 {
     font-size: 2.8em;
     font-weight: lighter;
-}
-h4
-{
-    margin: 0px;
-}
-article
-{
-    display: flex;
-    text-align: justify;
+    margin: 50px 50px 0px 0px;
+    padding-bottom: 0;
 }
 strong
 {
     color: FFD54F;
+}
+header span
+{   
+    border-bottom: 3px solid rgb(255,213,79);
+}
+header p
+{
+    font-size: 1.8em;
 }
 
 /* partie gauche */
@@ -34,14 +59,6 @@ strong
     width: 29%;
     background-color: rgb(129, 216, 243);
     text-align: justify;
-}
-#photocv
-{
-    width : 170px; height : 170px;
-    border: 5px solid grey;
-    border-radius : 50%;
-    display: block;
-    margin: 50px auto;
 }
 #bloc1 h2
 {
@@ -56,8 +73,16 @@ strong
 #bloc1 article, aside
 {
     padding: 47px;
-    font-style: "Times News Roman Normal";
     font-size: 1.3em;
+}
+.contact_info p
+{
+    font-family: "Times News Roman Normal";
+}
+#bloc1 article
+{
+    font-family: 'Montserrat', sans-serif;
+    flex: 1;
 }
 .icone_loisir
 {
@@ -78,28 +103,18 @@ strong
 {
     display: flex;
     flex-direction: column;
-    padding: 70px;
-    background-color: EEEEEE;
-}
-#bloc2 h1
-{
-    margin: 50px 50px 0px 0px;
-    padding-bottom: 0;
-}
-header span
-{   
-    border-bottom: 3px solid rgb(255,213,79);
-}
-header p
-{
-    font-size: 1.8em;
-    margin-bottom: 70px;
+    padding: 0px 70px 50px;
 }
 #bloc2 h2
 {
     font-size: 1.8em;
-    font-weight: normal;
     margin-left: 30px;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+#bloc2 article
+{
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 .fa-dot-circle, .fa-circle
 {
@@ -115,14 +130,28 @@ header p
     flex-direction: row;
     align-items: baseline;
     border-bottom: solid rgb(129, 216, 243);
-    margin: 40px 0px;
+    margin: 0px 0px 20px;
+}
+h3
+{
+    font-family: "Times", sans-serif;
+    font-weight: normal;
+    font-size: 1.3em;
+}
+h4
+{
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+article
+{
+    display: flex;
+    text-align: justify;
 }
 .duree , .description
 {
     display: flex;
     align-items: baseline;
-    font-style: "Times News Roman Normal";
-    font-size: 1.3em;
 }
 .duree
 {
@@ -132,7 +161,11 @@ header p
 {
     flex-direction: column;
     flex-basis: 66.66%;
-    
+}
+article p
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2em;
 }
 footer
 {
@@ -141,4 +174,5 @@ footer
 #recommandation
 {
     flex: 1 1;
+    font-size: 1.2em;
 }

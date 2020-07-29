@@ -3,55 +3,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/c6df3d9e4d.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" media="screen and (max-width: 1280px)" href="responsive_max_600px.css" />
-    <link rel="stylesheet" media="screen and (max-width: 1280px)" href="responsive_max_1024px.css" />
+    <link rel="stylesheet" media="screen and (max-width: 600px)" href="responsive_max_600px.css" />
+    <link rel="stylesheet" media="screen and (max-width: 1024px)" href="responsive_max_1024px.css" />
     <title>projet2</title>
 </head>
 
 <body>
 
-<div id="bloc_page">
-<!-- principal -->
-
-    <section id="bloc1">
-    <!-- bande laterale bleue -->
-
-        <header>
+    <header>
+        <div id="bloc_photo">
             <img src="photoopc_rec.jpg" id="photocv" alt="photo" >
-            <!-- photo cv -->
-        </header>
+        </div>  
+        <!-- photo cv haut/gauche -->
+        <div id="titre_cv">
+            <h1><strong>RASOLOFOARISON</strong> ANDRY</h1>
+            <p><span>Dével</span>oppeur web</p>
+        </div>
+        <!-- nom prenom metier haut/droite-->
+    </header>
         
-        <h2>CONTACT</h2>
+    <div id="principal">
+    <!-- principal -->    
+        <section id="bloc1">
+            <h2>CONTACT</h2>
 
         <aside>
-            <a>Adresse</a><br>
-            <a>Saint-thibault-des-vignes, France</a>
-            <br>
-            <br>
-
-            <a>Telephone</a><br>
-            <a>0607080900</a>
-            <br>
-            <br>
-
-            <a>Email</a><br>
-            <a>andry@gmail.com</a>
-            <br>
-            <br>
-
-            <a>Site web</a><br>
-            <a>www.andry_dev.fr</a>
-            <br>
-            <br>
-
-            <a>Skype</a><br>
-            <a>@andry_dev</a>
-            <br>
-            <br>
+            <div class="contact_info">
+                <p>Adresse<br>
+                Saint-thibault-des-vignes, France</p>
+            </div>
+            <div class="contact_info">
+                <p>Telephone<br>
+                0607080900</p>
+            </div>
+            <div class="contact_info">
+                <p>Email<br>
+                andry@gmail.com</p>
+            </div>
+            <div class="contact_info">
+                <p>Site web<br>
+                www.andry_dev.fr</p>
+            </div>
+            <div class="contact_info">
+                <p>Skype<br>
+                @andry_dev</p>
+            </div>
         </aside>
 
-        <h2>A PROPOS DE MOI</h2>
+            <h2>A PROPOS DE MOI</h2>
 
         <article>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
@@ -63,7 +64,7 @@
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
             Excepturi in culpa atque magnam
         </article>
-            
+        
         <h2>LOISIRS</h2>
 
         <aside class="icone_loisir">
@@ -79,11 +80,6 @@
 
     <section id="bloc2">
     <!-- description droite -->
-
-        <header>
-            <h1><strong>RASOLOFOARISON</strong> ANDRY</h1>
-            <p><span>Dével</span>oppeur web</p>
-        </header>
 
             <div class="sous_titre"> 
                 <i class="fas fa-user-graduate fa-2x"></i>
@@ -212,8 +208,6 @@
         </footer>
 
     </section>
-
-</div>
 
 </body>
 
