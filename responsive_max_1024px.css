@@ -5,6 +5,17 @@
         width: 100%;
         margin: 0px;
     }    
+    #principal
+    {
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    /* --------------------- partie bleue haute ------------------- */
+
     header
     {
         flex-direction: column;
@@ -15,39 +26,37 @@
         margin-left: auto;
         margin-right: auto;
         text-align: center;
-        font-size: 3.3em;
+        font-size: 2.5em;
     }
     header p
     {
         text-align: center;
-        font-size: 3em;
+        font-size: 2em;
     }
     #bloc_photo
     {
         width: 100%;
     }
-    #principal
-    {
-        display: flex;
-        flex-direction: column;
-        margin: 0px;
-        width: 100%;
-        border-radius: 10px;
-    }
     #bloc1
     {
         width: auto;
     }
+    .contact_info
+    {
+        font-size: 1.3em;
+    }
     #bloc1 h2
     {
-        font-size: 2.2em;
+        font-size: 1.9em;
     }
     #bloc1 article, aside
     {
-        padding: 70px;
         margin-right: auto;
         margin-left: auto;
     }
+
+    /* -------------------- partie blanche basse --------------- */
+
     #bloc2
     {
         padding: 70px;
@@ -67,16 +76,11 @@
     }
     .duree
     {
-        margin-left: auto;
-        margin-right: auto;
+        justify-content: flex-start;
     }
     .description h3, .description h4
     {
         margin-left: auto;
         margin-right: auto;
-    }
-    .contact_info
-    {
-        font-size: 1.3em;
     }
 }

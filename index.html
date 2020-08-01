@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
@@ -7,29 +8,48 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" media="screen and (max-width: 600px)" href="responsive_max_600px.css" />
     <link rel="stylesheet" media="screen and (max-width: 1024px)" href="responsive_max_1024px.css" />
-    <title>projet2</title>
+    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <title>projet2 mon cv en ligne</title>
 </head>
 
 <body>
 
     <header>
-        <div id="bloc_photo">
-            <img src="photoopc_rec.jpg" id="photocv" alt="photo" >
-        </div>  
-        <!-- photo cv haut/gauche -->
-        <div id="titre_cv">
-            <h1><strong>RASOLOFOARISON</strong> ANDRY</h1>
-            <p><span>Dével</span>oppeur web</p>
-        </div>
-        <!-- nom prenom metier haut/droite-->
+            <div id="bloc_photo">
+                <img src="photoopc_rec.jpg" id="photocv" alt="photo" >
+            </div>  
+            <!-- photo cv haut/gauche -->
+            <div id="titre_cv">
+                <h1><strong>RASOLOFOARISON</strong> ANDRY</h1>
+                <p><span>Dével</span>oppeur web</p>
+            </div>
+            <!-- nom prenom metier haut/droite-->
     </header>
         
-    <div id="principal">
-    <!-- principal -->    
-        <section id="bloc1">
-            <h2>CONTACT</h2>
+<div id="principal">
+<!-- principal qui englobe bloc1 + bloc2 -->    
+    <aside id="bloc1">
+    <!-- bloc cote gauche -->        
+        <section id="bloc1_section1">  
 
-        <aside>
+                <h2>CONTACT</h2>
+
             <div class="contact_info">
                 <p>Adresse<br>
                 Saint-thibault-des-vignes, France</p>
@@ -50,36 +70,39 @@
                 <p>Skype<br>
                 @andry_dev</p>
             </div>
-        </aside>
+        </section>
 
-            <h2>A PROPOS DE MOI</h2>
+        <section id="bloc1_section2">
 
-        <article>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-            Excepturi in culpa atque magnam eligendi. Quibusdam exercitationem
-            provident eos, distinctio, ut similique inventore consequuntur 
-            obcaecati ab assumenda veritatis officiis expedita fugit!
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-            Excepturi in culpa atque magnam.obcaecati ab assumenda veritatis officiis expedita fugit!
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-            Excepturi in culpa atque magnam
-        </article>
+                <h2>A PROPOS DE MOI</h2>
+
+                <p>ipsum dolor sit amet consectetur, adipisicing elit. 
+                Excepturi in culpa atque magnam eligendi. Quibusdam exercitationem
+                provident eos, distinctio, ut similique inventore consequuntur 
+                obcaecati ab assumenda veritatis officiis expedita fugit!
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                Excepturi in culpa atque magnam.obcaecati ab assumenda veritatis officiis expedita fugit!
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                Excepturi in culpa atque magnam</p>
+
+        </section>
         
-        <h2>LOISIRS</h2>
+        <section id="bloc1_section3">
+        
+                <h2>LOISIRS</h2>
 
-        <aside class="icone_loisir">
-            <i class="fas fa-globe-asia fa-3x"></i>
-            <!-- image1 -->
-            <i class="fas fa-futbol fa-3x"></i>
-            <!-- image2 -->
-            <i class="fas fa-music fa-3x"></i>
-            <!-- image3 -->
-        </aside>
+            <div id="icone_loisir">
+                <i class="fas fa-globe-asia fa-3x"></i>
+                <i class="fas fa-futbol fa-3x"></i>
+                <i class="fas fa-basketball-ball fa-3x"></i>
+            </div>
 
-    </section>
+        </section>
 
-    <section id="bloc2">
-    <!-- description droite -->
+    </aside>
+
+    <main id="bloc2">
+    <!-- description bloc droite -->
 
             <div class="sous_titre"> 
                 <i class="fas fa-user-graduate fa-2x"></i>
@@ -191,14 +214,14 @@
         
         <footer>
             
-            <div id="recommandation">
+            <div class="recommandation">
                 <h3>Richard Vaz</h3>
                 <p>Chef d'escale de permanence</p>
                 <p>Telephone: 0625072507</p>
                 <p>Email: r.laurent@gmail.com</p>
             </div>
 
-            <div id="recommandation">
+            <div class="recommandation">
                 <h3>John Statam</h3>
                 <p>Superviseur trafic</p>
                 <p>Telephone: 0148164816</p>
@@ -207,7 +230,9 @@
 
         </footer>
 
-    </section>
+    </main>
+
+</div>
 
 </body>
 

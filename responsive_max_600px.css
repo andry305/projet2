@@ -1,11 +1,12 @@
-@media (max-width:600px)
+@media screen and (min-width :100px) and (max-width:600px)
 {
     body
     {
         width: 100%;
-        display: flex;
-        flex-direction: column;
     }
+
+    /* -------------------- partie bleu haut ----------------- */
+
     header
     {
         width: 100%;
@@ -17,7 +18,8 @@
     }
     #titre_cv h1
     {
-        font-size: 1.8em;
+        font-size: 1.5em;
+        text-align: center;
         margin: 0px;
     }
     #principal
@@ -35,8 +37,6 @@
     #bloc1 h2, #bloc2 h2
     {
         font-size: 1.5em;
-        text-shadow: 2px 1px 2px black;
-        color: FFD54F;
     }
     header p
     {
@@ -49,45 +49,47 @@
     }
     #bloc1 article, aside
     {
-        padding: 25px;
+        padding: 15px;
         margin-right: auto;
         margin-left: auto;
     }
+
+    /* ------------------------- partie blanche basse ---------------------- */
+
     #bloc2
     {
-        padding: 25px;
-        margin: auto;
-        width: auto;
-        background-color: EEEEEE;
-        border-radius: 10px;
-    }
-    .sous_titre
-    {
-        justify-content: center; 
+        margin: 0px;
+        width: 100%;
     }
     #bloc2 article
     {
         display: flex;
         flex-direction: column;
+        margin: 0px;
+        padding: 0px;
     }
+    .sous_titre
+    {
+        justify-content: center; 
+    }
+  
     .duree
+    {
+        margin: 0px 30px;
+    }
+    .description
+    {
+        margin: 0px 30px 30px 30px;
+    }
+    footer
+    {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .description h3, .description h4
     {
         margin-left: auto;
         margin-right: auto;
-    }
-}
-@media all and (max-width:320)
-{
-    #bloc_photo
-    {
-        width: 100%;
-    }
-    #titre_cv
-    {
-        margin: 0px;
-    }
-    h1
-    {
-        margin: 0px;
     }
 }

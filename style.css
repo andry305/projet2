@@ -1,5 +1,6 @@
 body
 {
+    width: 100%;
     margin: 0px;
 }
 #principal
@@ -15,8 +16,8 @@ header
 }
 #bloc_photo
 {
-    width: 29%;
     background-color: rgb(129, 216, 243);
+    flex: 1;
 }
 #photocv
 {
@@ -25,10 +26,12 @@ header
     border-radius : 50%;
     display: block;
     margin: 50px auto;
+    
 }
 #titre_cv
 {
-    margin: 40px 70px;
+    margin: 50px;
+    flex: 2;
 }
 h1
 {
@@ -39,11 +42,11 @@ h1
 }
 strong
 {
-    color: FFD54F;
+    color: gold;
 }
 header span
 {   
-    border-bottom: 3px solid rgb(255,213,79);
+    border-bottom: 2px solid gold;
 }
 header p
 {
@@ -56,44 +59,46 @@ header p
 {
     display: flex;
     flex-direction: column;
-    width: 29%;
     background-color: rgb(129, 216, 243);
     text-align: justify;
+    flex: 1;
+    padding: 30px 0px;
 }
 #bloc1 h2
 {
     background-color: black;
-    color: FFD54F;
+    color: gold;
     text-align: center;
-    font-size: 1.8em;
     font-weight: normal;
-    margin: 0px;
+    padding: 7px 0px;
     
 }
-#bloc1 article, aside
+#bloc1_section2
 {
-    padding: 47px;
-    font-size: 1.3em;
+    flex: 1 1 0;
+}
+#bloc1 p
+{
+    padding: 0px 45px;
+    font-size: 1.1em;
+    font-family: 'Montserrat', sans-serif;
 }
 .contact_info p
 {
     font-family: "Times News Roman Normal";
+    padding: 0px 45px;
 }
-#bloc1 article
-{
-    font-family: 'Montserrat', sans-serif;
-    flex: 1;
-}
-.icone_loisir
+
+#icone_loisir
 {
    display: flex;
    justify-content: space-around;  
 }
-.fa-globe-asia, .fa-futbol, .fa-music
+.fa-globe-asia, .fa-basketball-ball, .fa-futbol
 {
     border: 1px solid black;
     border-radius: 50%;
-    padding: 15px;
+    padding: 10px;
     margin: 3px;
 }
 
@@ -103,7 +108,10 @@ header p
 {
     display: flex;
     flex-direction: column;
-    padding: 0px 70px 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+    flex: 2;
 }
 #bloc2 h2
 {
@@ -155,23 +163,23 @@ article
 }
 .duree
 {
-    flex-basis: 33.33%;
+    flex: 1;
 }
 .description
 {
     flex-direction: column;
-    flex-basis: 66.66%;
+    flex: 2;
 }
 article p
 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
 footer
 {
     display: flex;
 }
-#recommandation
+.recommandation
 {
     flex: 1 1;
     font-size: 1.2em;
