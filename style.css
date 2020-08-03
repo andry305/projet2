@@ -26,31 +26,32 @@ header
     border-radius : 50%;
     display: block;
     margin: 50px auto;
-    
 }
 #titre_cv
 {
+    font-family: "helvetica Neue Regular" , sans-serif;
     margin: 50px;
     flex: 2;
 }
 h1
 {
-    font-size: 2.8em;
+    font-size: 2.5em;
     font-weight: lighter;
     margin: 50px 50px 0px 0px;
     padding-bottom: 0;
 }
-strong
+h1 span
 {
     color: gold;
+    font-weight: 500;
 }
-header span
+p span
 {   
     border-bottom: 2px solid gold;
 }
-header p
+#titre_cv p
 {
-    font-size: 1.8em;
+    font-size: 1.7em;
 }
 
 /* partie gauche */
@@ -63,6 +64,7 @@ header p
     text-align: justify;
     flex: 1;
     padding: 30px 0px;
+    font-family: "helvetica Neue Regular" , sans-serif;
 }
 #bloc1 h2
 {
@@ -71,7 +73,7 @@ header p
     text-align: center;
     font-weight: normal;
     padding: 7px 0px;
-    
+    text-transform: uppercase;
 }
 #bloc1_section2
 {
@@ -80,12 +82,9 @@ header p
 #bloc1 p
 {
     padding: 0px 45px;
-    font-size: 1.1em;
-    font-family: 'Montserrat', sans-serif;
 }
 .contact_info p
 {
-    font-family: "Times News Roman Normal";
     padding: 0px 45px;
 }
 
@@ -110,14 +109,13 @@ header p
     flex-direction: column;
     margin-left: 50px;
     margin-right: 50px;
-    
     flex: 2;
+    font-family: "helvetica Neue Regular" , sans-serif;
 }
 #bloc2 h2
 {
-    font-size: 1.8em;
     margin-left: 30px;
-    font-family: 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
 }
 #bloc2 article
 {
@@ -140,16 +138,11 @@ header p
     border-bottom: solid rgb(129, 216, 243);
     margin: 0px 0px 20px;
 }
-h3
-{
-    font-family: "Times", sans-serif;
-    font-weight: normal;
-    font-size: 1.3em;
-}
+
 h4
 {
     margin: 0px;
-    font-family: 'Montserrat', sans-serif;
+    
 }
 article
 {
@@ -172,7 +165,7 @@ article
 }
 article p
 {
-    font-family: 'Montserrat', sans-serif;
+    
     font-size: 1.1em;
 }
 footer
@@ -182,5 +175,16 @@ footer
 .recommandation
 {
     flex: 1 1;
-    font-size: 1.2em;
+    padding-bottom: 50px;
+}
+#bloc_page 
+{
+    background: white;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 0.6cm;
+    box-shadow: 0 0 0.7cm rgba(0,0,0,0.4);  
+    width: 1190px;
+    height: 100%;
+    border: 0.5px solid grey;
 }

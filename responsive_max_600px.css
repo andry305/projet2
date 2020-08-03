@@ -5,6 +5,12 @@
         width: 100%;
     }
 
+    #bloc_page
+    {
+        width: 90%;
+    }
+    
+
     /* -------------------- partie bleu haut ----------------- */
 
     header
@@ -22,6 +28,10 @@
         text-align: center;
         margin: 0px;
     }
+    #titre_cv p
+    {
+        font-size: 1.2em;
+    }
     #principal
     {
         display: flex;
@@ -36,16 +46,12 @@
     }
     #bloc1 h2, #bloc2 h2
     {
-        font-size: 1.5em;
+        font-size: 1.2em;
     }
     header p
     {
-        font-size: 1.5em;
+        font-size: 1.2em;
         text-align: center;
-    }
-    h2 span
-    {
-        font-size: 0.9em;
     }
     #bloc1 article, aside
     {
@@ -58,6 +64,7 @@
 
     #bloc2
     {
+        padding-top: 40px;
         margin: 0px;
         width: 100%;
     }

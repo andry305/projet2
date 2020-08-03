@@ -4,7 +4,13 @@
     {
         width: 100%;
         margin: 0px;
-    }    
+    } 
+    
+    #bloc_page
+    {
+        width: 90%;
+    }
+
     #principal
     {
         display: flex;
@@ -26,12 +32,11 @@
         margin-left: auto;
         margin-right: auto;
         text-align: center;
-        font-size: 2.5em;
     }
-    header p
+    #titre_cv p
     {
         text-align: center;
-        font-size: 2em;
+        font-size: 1.8em;
     }
     #bloc_photo
     {
@@ -40,14 +45,6 @@
     #bloc1
     {
         width: auto;
-    }
-    .contact_info
-    {
-        font-size: 1.3em;
-    }
-    #bloc1 h2
-    {
-        font-size: 1.9em;
     }
     #bloc1 article, aside
     {
@@ -61,14 +58,6 @@
     {
         padding: 70px;
         width: auto;
-    }
-    #bloc2 h2
-    {
-        font-size: 2.2em;
-    }
-    h2 span
-    {
-        font-size: 0.8em;
     }
     .sous_titre
     {
