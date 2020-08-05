@@ -3,6 +3,16 @@ body
     width: 100%;
     margin: 0px;
 }
+#bloc_page 
+{
+    background: white;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 0.6cm;
+    box-shadow: 0 0 0.7cm rgba(0,0,0,0.4);  
+    width: 1190px;
+    height: 100%;
+}
 #principal
 {
     display: flex;
@@ -21,7 +31,7 @@ header
 }
 #photocv
 {
-    width : 170px; height : 170px;
+    width : 220px; height : 230px;
     border: 5px solid grey;
     border-radius : 50%;
     display: block;
@@ -63,7 +73,7 @@ p span
     background-color: rgb(129, 216, 243);
     text-align: justify;
     flex: 1;
-    padding: 30px 0px;
+    padding: 0px 0px 30px 0px;
     font-family: "helvetica Neue Regular" , sans-serif;
 }
 #bloc1 h2
@@ -74,6 +84,10 @@ p span
     font-weight: normal;
     padding: 7px 0px;
     text-transform: uppercase;
+}
+#bloc1_section1 h2
+{
+    margin-top: 0px;
 }
 #bloc1_section2
 {
@@ -116,6 +130,7 @@ p span
 {
     margin-left: 30px;
     text-transform: uppercase;
+    flex-wrap: wrap;
 }
 #bloc2 article
 {
@@ -176,15 +191,4 @@ footer
 {
     flex: 1 1;
     padding-bottom: 50px;
-}
-#bloc_page 
-{
-    background: white;
-    display: block;
-    margin: 0 auto;
-    margin-bottom: 0.6cm;
-    box-shadow: 0 0 0.7cm rgba(0,0,0,0.4);  
-    width: 1190px;
-    height: 100%;
-    border: 0.5px solid grey;
 }

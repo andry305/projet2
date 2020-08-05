@@ -27,6 +27,10 @@
         flex-direction: column;
         width: 100%;
     }
+    #titre_cv
+    {
+        margin: 0px 50px 20px 0px;
+    }
     #titre_cv h1
     {
         margin-left: auto;
@@ -42,9 +46,18 @@
     {
         width: 100%;
     }
+    #photocv
+    {
+        width : 160px; height : 170px;
+    }
     #bloc1
     {
         width: auto;
+        padding: 0px 0px 30px 0px;
+    }
+    #bloc1_section1 h2
+    {
+        margin-top: 0px;
     }
     #bloc1 article, aside
     {
@@ -56,7 +69,7 @@
 
     #bloc2
     {
-        padding: 70px;
+        padding: 70px 0px 0px 0px;
         width: auto;
     }
     .sous_titre
